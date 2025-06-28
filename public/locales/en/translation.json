@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "about": "About",
+    "home": "Home",
+    "experiences": "Experiences",
+    "services": "services",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Soar Above Paradise",
+      "description": "Experience the ultimate freedom with our paragliding adventures. Discover breathtaking aerial views and unforgettable moments high above stunning landscapes."
+    },
+    "slide2": {
+      "title": "Desert Expeditions",
+      "description": "Journey through golden dunes on our authentic camel tours. Immerse yourself in ancient traditions while exploring the mesmerizing beauty of the desert."
+    },
+    "slide3": {
+      "title": "Horseback Adventures",
+      "description": "Connect with nature on our guided horse riding experiences. Explore scenic trails and create lasting memories in the saddle through diverse landscapes."
+    },
+    "slide4": {
+      "title": "Quad Bike Thrills",
+      "description": "Unleash your adventurous spirit with our high-energy quad biking tours. Navigate rugged terrains and experience adrenaline-pumping off-road adventures."
+    },
+    "cta": {
+      "primary": "Book Your Adventure",
+      "secondary": "Explore Experiences"
+    },
+    "scrollDown": "Scroll"
+  },
+  "experiences": {
+    "title": "Our Adventures",
+    "subtitle": "Choose Your Perfect Experience",
+    "paragliding": {
+      "title": "Paragliding",
+      "description": "Soar through the skies and witness breathtaking panoramic views",
+      "duration": "2-3 hours",
+      "difficulty": "Beginner to Advanced",
+      "includes": "Professional instructor, safety equipment, photos"
+    },
+    "camelTours": {
+      "title": "Camel Tours",
+      "description": "Traditional desert journeys with authentic cultural experiences",
+      "duration": "Half day to Multi-day",
+      "difficulty": "All levels",
+      "includes": "Guide, traditional meals, overnight camping (multi-day)"
+    },
+    "horseRiding": {
+      "title": "Horse Riding",
+      "description": "Explore scenic trails and connect with nature on horseback",
+      "duration": "1-4 hours",
+      "difficulty": "Beginner to Intermediate",
+      "includes": "Horse, safety equipment, experienced guide"
+    },
+    "quadTours": {
+      "title": "Quad Tours",
+      "description": "High-energy off-road adventures through diverse terrains",
+      "duration": "2-6 hours",
+      "difficulty": "Intermediate to Advanced",
+      "includes": "Quad bike, helmet, safety briefing, refreshments"
+    }
+  },
+  "about": {
+    "title": "About Raja Ampat Adventures",
+    "description": "We are passionate about creating unforgettable adventure experiences that connect you with nature and local culture. With over 10 years of expertise, we offer safe, authentic, and thrilling adventures.",
+    "stats": {
+      "experiences": "1000+",
+      "years": "10+",
+      "guides": "25+",
+      "safety": "100%"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to embark on your next adventure? Get in touch with us!",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "experience": "Choose Experience",
+      "message": "Your Message",
+      "send": "Send Message"
+    }
+  },
+  "tours": {
+    "title": "Discover Our Adventures",
+    "subtitle": "Experience the thrill of Morocco through our exclusive adventure tours. From soaring through the skies to exploring the desert sands.",
+    "featured": "FEATURED TOURS",
+    "discover": "DISCOVER",
+    "seeAll": "SEE ALL TOURS",
+    "paragliding": {
+      "title": "Paragliding",
+      "description": "Soar through the skies and witness breathtaking views of Morocco's landscapes from above. An unforgettable aerial adventure.",
+      "button": "Book Paragliding Tour"
+    },
+    "quad": {
+      "title": "Quad Biking",
+      "description": "Navigate through rugged terrains and desert paths on powerful ATVs. Perfect for adrenaline seekers and adventure enthusiasts.",
+      "button": "Book Quad Adventure"
+    },
+    "camels": {
+      "title": "Camel Trekking",
+      "description": "Experience the traditional way of desert travel. Journey through golden dunes on the back of these gentle giants.",
+      "button": "Book Camel Trek"
+    },
+    "horses": {
+      "title": "Horse Riding",
+      "description": "Explore Morocco's beautiful countryside and beaches on horseback. Connect with nature in the most authentic way.",
+      "button": "Book Horse Riding"
+    }
+  },
+  "footer": {
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Email address",
+    "nav": {
+      "home": "Home",
+      "works": "Works",
+      "about": "About Us",
+      "studio": "Studio",
+      "contact": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "production": "Production",
+      "ecommerce": "E-Commerce",
+      "casting": "Casting",
+      "locations": "Locations",
+      "staffing": "Creative Staffing"
+    },
+    "artists": {
+      "title": "Artists",
+      "photography": "Photography & Motion",
+      "wardrobe": "Wardrobe",
+      "glam": "Glam",
+      "creative": "Creative",
+      "setDesign": "Set Design"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "vimeo": "Vimeo",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "Copyright © 2025 Hyperion. Full Service Production. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "termsOfUse": "Terms of Use"
+    }
+  },
+  "quote": {
+    "title": "Our Mission",
+    "body": "Fly Tandem is more than just a flight — it's a gateway to freedom, thrill, and Morocco’s raw beauty. We believe in making unforgettable aerial experiences accessible to everyone, while honoring the land, skies, and local communities that make it all possible."
+  },
+  "team": {
+    "title": "Meet Our Expert Team",
+    "subtitle": "USHPA Certified Instructors & Tandem Pilots",
+    "experience": "15+ Years Experience",
+    "flightHours": "5000+ Flight Hours",
+    "certifications": "USHPA Certified",
+    "teamSize": "4 Expert Pilots",
+    "description": "Our team of certified USHPA instructors brings over 15 years of combined experience and thousands of flight hours to ensure your paragliding adventure is both safe and unforgettable.",
+    "hours": "Hours",
+    "experienceLabel": "Experience",
+    "teamMembers": [
+      {
+        "name": "Sarah Mitchell",
+        "role": "Chief Flight Instructor",
+        "specialty": "Thermal Flying & Advanced Techniques",
+        "hours": "1200+",
+        "experience": "15 years"
+      },
+      {
+        "name": "Marcus Rodriguez",
+        "role": "Senior Tandem Pilot",
+        "specialty": "First-time Flights & Safety Training",
+        "hours": "950+",
+        "experience": "12 years"
+      },
+      {
+        "name": "Elena Kowalski",
+        "role": "Advanced Instructor",
+        "specialty": "Cross-Country & Competition",
+        "hours": "1100+",
+        "experience": "14 years"
+      },
+      {
+        "name": "James Thompson",
+        "role": "Safety Officer & Senior Pilot",
+        "specialty": "Weather Analysis & Risk Management",
+        "hours": "1400+",
+        "experience": "18 years"
+      }
+    ],
+    "certifications_details": {
+      "ushpa": "United States Hang Gliding and Paragliding Association",
+      "tandem_rating": "Tandem Instructor Rating",
+      "advanced_rating": "Advanced Pilot Rating",
+      "instructor_rating": "Certified Flight Instructor"
+    },
+    "stats": {
+      "total_hours": "4000+",
+      "total_flights": "2500+",
+      "students_trained": "800+",
+      "safety_record": "100%"
+    }
+  }
+}

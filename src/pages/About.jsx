@@ -1,4 +1,19 @@
-export default function About() {
-    return <div className="text-2xl font-bold text-center mt-10">📄 About Page</div>;
-  }
-  
+import React from "react";
+import MainLayout from "../layouts/MainLayout";
+import ParaglidingInfoBlock from "../components/ParaglidingInfoBlock";
+import ParaglidingTeam from "../components/ParaglidingTeam";
+
+
+// Main App Component
+const Services = () => {
+
+  return (
+    <MainLayout>
+      <ParaglidingInfoBlock />
+      <ParaglidingTeam />
+      <div className="md:mt-80"> </div>
+    </MainLayout>
+  );
+};
+
+export default Services;

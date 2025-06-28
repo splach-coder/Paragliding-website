@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "home": "Accueil",
+    "experiences": "Expériences",
+    "pricing": "Tarifs",
+    "services" : "services",
+    "contact": "Contact",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Planez Au-Dessus du Paradis",
+      "description": "Vivez la liberté ultime avec nos aventures de parapente. Découvrez des vues aériennes à couper le souffle et des moments inoubliables au-dessus de paysages époustouflants."
+    },
+    "slide2": {
+      "title": "Expéditions Désertiques",
+      "description": "Voyagez à travers les dunes dorées lors de nos circuits authentiques à dos de chameau. Plongez-vous dans les traditions anciennes tout en explorant la beauté envoûtante du désert."
+    },
+    "slide3": {
+      "title": "Aventures Équestres",
+      "description": "Connectez-vous avec la nature lors de nos expériences d'équitation guidées. Explorez des sentiers pittoresques et créez des souvenirs durables en selle à travers des paysages diversifiés."
+    },
+    "slide4": {
+      "title": "Sensations Quad",
+      "description": "Libérez votre esprit d'aventure avec nos circuits quad haute énergie. Naviguez sur des terrains accidentés et vivez des aventures tout-terrain pleines d'adrénaline."
+    },
+    "cta": {
+      "primary": "Réservez Votre Aventure",
+      "secondary": "Explorez les Expériences"
+    },
+    "scrollDown": "Défiler"
+  },
+  "experiences": {
+    "title": "Nos Aventures",
+    "subtitle": "Choisissez Votre Expérience Parfaite",
+    "paragliding": {
+      "title": "Parapente",
+      "description": "Volez dans les cieux et admirez des vues panoramiques à couper le souffle",
+      "duration": "2-3 heures",
+      "difficulty": "Débutant à Avancé",
+      "includes": "Instructeur professionnel, équipement de sécurité, photos"
+    },
+    "camelTours": {
+      "title": "Circuits à Dos de Chameau",
+      "description": "Voyages traditionnels dans le désert avec des expériences culturelles authentiques",
+      "duration": "Demi-journée à Plusieurs jours",
+      "difficulty": "Tous niveaux",
+      "includes": "Guide, repas traditionnels, camping nocturne (plusieurs jours)"
+    },
+    "horseRiding": {
+      "title": "Équitation",
+      "description": "Explorez des sentiers panoramiques et connectez-vous avec la nature à cheval",
+      "duration": "1-4 heures",
+      "difficulty": "Débutant à Intermédiaire",
+      "includes": "Cheval, équipement de sécurité, guide expérimenté"
+    },
+    "quadTours": {
+      "title": "Circuits Quad",
+      "description": "Aventures tout-terrain haute énergie à travers des terrains diversifiés",
+      "duration": "2-6 heures",
+      "difficulty": "Intermédiaire à Avancé",
+      "includes": "Quad, casque, briefing sécurité, rafraîchissements"
+    }
+  },
+  "about": {
+    "title": "À Propos de Raja Ampat Adventures",
+    "description": "Nous sommes passionnés par la création d'expériences d'aventure inoubliables qui vous connectent avec la nature et la culture locale. Avec plus de 10 ans d'expertise, nous offrons des aventures sûres, authentiques et palpitantes.",
+    "stats": {
+      "experiences": "1000+",
+      "years": "10+",
+      "guides": "25+",
+      "safety": "100%"
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "description": "Prêt à vous lancer dans votre prochaine aventure ? Contactez-nous !",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "experience": "Choisir une Expérience",
+      "message": "Votre Message",
+      "send": "Envoyer le Message"
+    }
+  },
+  "tours": {
+    "title": "Découvrez Nos Aventures",
+    "subtitle": "Vivez l'émotion du Maroc à travers nos circuits d'aventure exclusifs. Des vols dans le ciel à l'exploration des sables du désert.",
+    "featured": "CIRCUITS VEDETTES",
+    "discover": "DÉCOUVRIR",
+    "seeAll": "VOIR TOUS LES CIRCUITS",
+    "paragliding": {
+      "title": "Parapente",
+      "description": "Planez dans les airs et admirez des vues à couper le souffle sur les paysages marocains d'en haut. Une aventure aérienne inoubliable.",
+      "button": "Réserver Circuit Parapente"
+    },
+    "quad": {
+      "title": "Quad",
+      "description": "Naviguez à travers des terrains accidentés et des sentiers désertiques sur des VTT puissants. Parfait pour les amateurs d'adrénaline.",
+      "button": "Réserver Aventure Quad"
+    },
+    "camels": {
+      "title": "Randonnée Chameau",
+      "description": "Découvrez la façon traditionnelle de voyager dans le désert. Voyagez à travers les dunes dorées sur le dos de ces géants doux.",
+      "button": "Réserver Trek Chameau"
+    },
+    "horses": {
+      "title": "Équitation",
+      "description": "Explorez la belle campagne et les plages du Maroc à cheval. Connectez-vous avec la nature de la façon la plus authentique.",
+      "button": "Réserver Équitation"
+    }
+  },
+  "footer": {
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Adresse e-mail",
+    "nav": {
+      "home": "Accueil",
+      "works": "Œuvres",
+      "about": "À Propos",
+      "studio": "Studio",
+      "contact": "Contact"
+    },
+    "services": {
+      "title": "Services",
+      "production": "Production",
+      "ecommerce": "E-Commerce",
+      "casting": "Casting",
+      "locations": "Lieux",
+      "staffing": "Personnel Créatif"
+    },
+    "artists": {
+      "title": "Artistes",
+      "photography": "Photographie & Motion",
+      "wardrobe": "Garde-robe",
+      "glam": "Glam",
+      "creative": "Créatif",
+      "setDesign": "Conception de Décor"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "vimeo": "Vimeo",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "Copyright © 2025 Hyperion. Production de Service Complet. Tous droits réservés.",
+    "legal": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions de Service",
+      "termsOfUse": "Conditions d'Utilisation"
+    }
+  },
+  "quote": {
+    "title": "Notre Mission",
+    "body": "Fly Tandem est bien plus qu’un vol — c’est une porte ouverte vers la liberté, l’adrénaline et la beauté brute du Maroc. Nous voulons rendre ces expériences aériennes inoubliables accessibles à tous, tout en respectant la terre, le ciel et les communautés locales qui rendent cela possible."
+  },
+  "team": {
+    "title": "Rencontrez Notre Équipe d'Experts",
+    "subtitle": "Instructeurs et Pilotes Tandem Certifiés USHPA",
+    "experience": "15+ Années d'Expérience",
+    "flightHours": "5000+ Heures de Vol",
+    "certifications": "Certifié USHPA",
+    "teamSize": "4 Pilotes Experts",
+    "description": "Notre équipe d'instructeurs certifiés USHPA apporte plus de 15 ans d'expérience combinée et des milliers d'heures de vol pour garantir que votre aventure de parapente soit à la fois sûre et inoubliable.",
+    "hours": "Heures",
+    "experienceLabel": "Expérience",
+    "teamMembers": [
+      {
+        "name": "Sarah Mitchell",
+        "role": "Instructrice en Chef",
+        "specialty": "Vol Thermique & Techniques Avancées",
+        "hours": "1200+",
+        "experience": "15 ans"
+      },
+      {
+        "name": "Marcus Rodriguez",
+        "role": "Pilote Tandem Senior",
+        "specialty": "Premiers Vols & Formation Sécurité",
+        "hours": "950+",
+        "experience": "12 ans"
+      },
+      {
+        "name": "Elena Kowalski",
+        "role": "Instructrice Avancée",
+        "specialty": "Cross-Country & Compétition",
+        "hours": "1100+",
+        "experience": "14 ans"
+      },
+      {
+        "name": "James Thompson",
+        "role": "Responsable Sécurité & Pilote Senior",
+        "specialty": "Analyse Météo & Gestion des Risques",
+        "hours": "1400+",
+        "experience": "18 ans"
+      }
+    ],
+    "certifications_details": {
+      "ushpa": "Association Américaine de Vol Libre et Parapente",
+      "tandem_rating": "Qualification Instructeur Tandem",
+      "advanced_rating": "Qualification Pilote Avancé",
+      "instructor_rating": "Instructeur de Vol Certifié"
+    },
+    "stats": {
+      "total_hours": "4000+",
+      "total_flights": "2500+",
+      "students_trained": "800+",
+      "safety_record": "100%"
+    }
+  }
+}

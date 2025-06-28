@@ -1,10 +1,24 @@
+import React, {useEffect, useState} from "react";
 import MainLayout from "../layouts/MainLayout";
+import Hero from "../components/Hero";
+import ToursShowcase from "../components/ToursShowcase";
+import ParaglidingInfoBlock from "../components/ParaglidingInfoBlock";
+import QuoteSection from "../components/QuoteSection";
+import ParaglidingTeam from "../components/ParaglidingTeam";
 
-export default function Home() {
+
+// Main App Component
+const Home = () => {
+
   return (
     <MainLayout>
-      <h2 className="text-2xl font-bold">🏠 Home Page</h2>
-      <p className="mt-4">Welcome to the starter project!</p>
+      <Hero />
+      <ParaglidingInfoBlock />
+      <ParaglidingTeam />
+      <ToursShowcase />
+      <QuoteSection />
     </MainLayout>
   );
-}
+};
+
+export default Home;
