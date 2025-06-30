@@ -7,32 +7,36 @@ const ParaglidingTeam = () => {
 
   const teamMembers = [
     {
-      name: "Sarah Mitchell",
+      name: "Abde Errahime",
       role: "Chief Flight Instructor",
-      specialty: "Thermal Flying & Advanced Techniques",
-      hours: "1200+",
-      experience: "15 years"
+      specialty: "Advanced Flying",
+      hours: "15000+",
+      experience: "20 years",
+      img: "images/team/Abderrahim.jpeg"
     },
     {
-      name: "Marcus Rodriguez", 
-      role: "Senior Tandem Pilot",
-      specialty: "First-time Flights & Safety Training",
-      hours: "950+",
-      experience: "12 years"
+      name: "Hassan", 
+      role: "Chief Flight Instructor",
+      specialty: "First-time Flights & Advanced Flying",
+      hours: "10000+",
+      experience: "15 years",
+      img: "images/team/hassan.jpeg"
     },
     {
-      name: "Elena Kowalski",
+      name: "ElHadj",
       role: "Advanced Instructor",
-      specialty: "Cross-Country & Competition",
-      hours: "1100+",
-      experience: "14 years"
+      specialty: "Senior Pilot",
+      hours: "6000+",
+      experience: "6 years",
+      img: "images/team/ELhadj.jpeg"
     },
     {
-      name: "James Thompson",
-      role: "Safety Officer & Senior Pilot",
-      specialty: "Weather Analysis & Risk Management",
-      hours: "1400+",
-      experience: "18 years"
+      name: "Said",
+      role: "Advanced Instructor",
+      specialty: "Senior Pilot",
+      hours: "4000+",
+      experience: "5 years",
+      img: "images/team/Said.jpeg"
     }
   ];
 
@@ -63,7 +67,7 @@ const ParaglidingTeam = () => {
             <div className="flex items-center justify-center mb-4">
               <Clock className="w-8 h-8 text-slate-700" />
             </div>
-            <div className="text-3xl font-light text-slate-900 mb-2">5000+</div>
+            <div className="text-3xl font-light text-slate-900 mb-2">9000+</div>
             <div className="text-sm uppercase tracking-wider text-slate-500">Flight Hours</div>
           </div>
           <div className="text-center border-r border-slate-200 last:border-r-0">
@@ -89,17 +93,9 @@ const ParaglidingTeam = () => {
               {/* Large Image Container */}
               <div className="aspect-[4/5] bg-gradient-to-br from-slate-100 to-slate-200 relative overflow-hidden">
                 {/* Placeholder for actual image */}
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-300 via-slate-400 to-slate-500 opacity-80"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white bg-opacity-20 flex items-center justify-center">
-                    <span className="text-4xl font-light text-white">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
+                <div className="absolute inset-0">
+                  <img src={member.img} className='w-full h-full object-cover' alt="" />
                 </div>
-                
-                {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-slate-900 bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-500"></div>
                 
                 {/* Hours badge */}
                 <div className="absolute top-6 right-6 bg-white bg-opacity-95 px-4 py-2">

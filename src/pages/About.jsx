@@ -3,17 +3,16 @@ import MainLayout from "../layouts/MainLayout";
 import ParaglidingInfoBlock from "../components/ParaglidingInfoBlock";
 import ParaglidingTeam from "../components/ParaglidingTeam";
 
-
 // Main App Component
-const Services = () => {
-
+const About = () => {
   return (
     <MainLayout>
-      <ParaglidingInfoBlock />
-      <ParaglidingTeam />
-      <div className="md:mt-80"> </div>
+      <div className="bg-white md:mb-80">
+        <ParaglidingInfoBlock />
+        <ParaglidingTeam />
+      </div>
     </MainLayout>
   );
 };
 
-export default Services;
+export default About;

@@ -4,9 +4,9 @@
     "home": "Accueil",
     "experiences": "Expériences",
     "pricing": "Tarifs",
-    "services" : "services",
+    "services": "services",
     "contact": "Contact",
-    "getStarted": "Commencer"
+    "getStarted": "Réservez maintenant"
   },
   "hero": {
     "slide1": {
@@ -115,45 +115,10 @@
     }
   },
   "footer": {
-    "newsletter": "Newsletter",
-    "emailPlaceholder": "Adresse e-mail",
-    "nav": {
-      "home": "Accueil",
-      "works": "Œuvres",
-      "about": "À Propos",
-      "studio": "Studio",
-      "contact": "Contact"
-    },
-    "services": {
-      "title": "Services",
-      "production": "Production",
-      "ecommerce": "E-Commerce",
-      "casting": "Casting",
-      "locations": "Lieux",
-      "staffing": "Personnel Créatif"
-    },
-    "artists": {
-      "title": "Artistes",
-      "photography": "Photographie & Motion",
-      "wardrobe": "Garde-robe",
-      "glam": "Glam",
-      "creative": "Créatif",
-      "setDesign": "Conception de Décor"
-    },
-    "social": {
-      "instagram": "Instagram",
-      "tiktok": "TikTok",
-      "youtube": "YouTube",
-      "vimeo": "Vimeo",
-      "facebook": "Facebook",
-      "linkedin": "LinkedIn"
-    },
-    "copyright": "Copyright © 2025 Hyperion. Production de Service Complet. Tous droits réservés.",
-    "legal": {
-      "privacy": "Politique de Confidentialité",
-      "terms": "Conditions de Service",
-      "termsOfUse": "Conditions d'Utilisation"
-    }
+    "backToTop": "RETOUR EN HAUT",
+    "callToAction": "PRÊT POUR VOTRE PROCHAINE AVENTURE ?",
+    "designBy": "Design par",
+    "developmentBy": "Développement par"
   },
   "quote": {
     "title": "Notre Mission",
@@ -210,6 +175,67 @@
       "total_flights": "2500+",
       "students_trained": "800+",
       "safety_record": "100%"
+    }
+  },
+  "paragliding": {
+    "title": "Parapente au-dessus de Marrakech",
+    "description": "Décollage pour une expérience de parapente en tandem unique en son genre au-dessus du désert d'Agafay. Planez dans le ciel avec nos pilotes certifiés et découvrez le Maroc sous un angle inoubliable."
+  },
+  "expertFlights": {
+    "title": "Vols en tandem dirigés par des experts",
+    "description": "Notre agence est spécialisée dans l'organisation de vols en parapente à travers Marrakech et le Maroc. Soutenue par une équipe nationale de professionnels de l'aviation avec des années d'expérience pratique."
+  },
+  "pricing": {
+    "title": "Prix par personne",
+    "description": "Profitez de votre expérience complète de parapente en tandem pour seulement 700 Dhs. Réservation à l'avance requise.",
+    "amount": "700 DHS"
+  },
+  "itinerary": {
+    "title": "Itinéraire du vol",
+    "description": "Votre expérience commence par une prise en charge en groupe et un trajet pittoresque vers le site de lancement. Après les vérifications de sécurité et un briefing sur le décollage, vous vous envolerez dans le ciel pendant 10 à 20 minutes."
+  },
+  "included": {
+    "title": "Ce qui est inclus",
+    "description": "Chaque vol comprend un transport aller-retour depuis Marrakech, un vol en tandem de 10 à 20 minutes, un équipement de sécurité complet comprenant un casque, et un forfait photo/vidéo optionnel."
+  },
+  "safety": {
+    "title": "Normes de sécurité certifiées",
+    "description": "Nous sommes la seule compagnie de parapente assurée au Maroc. Notre équipe suit des protocoles de sécurité stricts et utilise un équipement certifié. Tous les pilotes sont licenciés USHPA."
+  },
+  "eligibility": {
+    "title": "Qui peut voler",
+    "description": "Le parapente est ouvert à presque tout le monde. Nous emmenons des passagers à partir de 4 ans, y compris les seniors. Plage de poids : 20kg-110kg. Aucune expérience préalable requise."
+  },
+  "bookNow": "RÉSERVER MAINTENANT",
+  "tour": {
+    "name": "Expérience de Parapente à Agafay",
+    "description": "Un vol en tandem palpitant au-dessus du désert d’Agafay avec des pilotes certifiés.",
+    "transportNote": "Transport depuis Marrakech disponible en supplément.",
+    "steps": {
+      "arrival": {
+        "title": "Arrivée au point de rendez-vous",
+        "desc": "Rencontrez l’équipe et les autres participants au lieu de rendez-vous près d’Aguergour."
+      },
+      "drive": {
+        "title": "Trajet vers le site de décollage",
+        "desc": "Montez dans le 4x4 pour une route panoramique vers le site de décollage dominant Agafay."
+      },
+      "safety": {
+        "title": "Préparation et briefing sécurité",
+        "desc": "Profitez de la vue pendant que les pilotes installent le matériel. Vous recevrez un briefing rapide et serez équipé."
+      },
+      "flight": {
+        "title": "Décollage et vol",
+        "desc": "Envolez-vous et planez dans le ciel pendant 10 à 20 minutes, porté par la brise."
+      },
+      "landing": {
+        "title": "Atterrissage en douceur",
+        "desc": "Atterrissez en toute sécurité sur la zone prévue, l’équipe vous accueille pour un débriefing et les photos."
+      },
+      "transport": {
+        "title": "Transport retour optionnel",
+        "desc": "Le transport de retour à Marrakech est disponible si réservé à l’avance."
+      }
     }
   }
 }

@@ -7,52 +7,52 @@ const ParaglidingInfoBlock = () => {
 
   const flightDetails = [
     {
-      title: "Paragliding Over Marrakech",
-      description: "Take off on a once-in-a-lifetime tandem paragliding experience over the Agafay Desert. Glide through the skies with our certified pilots and witness Morocco from an unforgettable perspective.",
-      image: "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&h=600&fit=crop&q=80",
+      title: t("paragliding.title"),
+      description: t("paragliding.description"),
+      image: "images/sections/1.JPG",
       layout: "left",
       textColor: "text-light-gray"
     },
     {
-      title: "Expert-Led Tandem Flights",
-      description: "Our agency specializes in organizing paragliding flights across Marrakech and Morocco. Backed by a national team of aviation professionals with years of hands-on expertise.",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&q=80",
+      title: t("expertFlights.title"),
+      description: t("expertFlights.description"),
+      image: "images/sections/2.JPG",
       layout: "right",
       textColor: "text-deep-teal"
     },
     {
-      title: "Price Per Person",
-      description: "Enjoy your full tandem paragliding experience for just 700 Dhs or 67 €. Advance booking required.",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&q=80",
+      title: t("pricing.title"),
+      description: t("pricing.description"),
+      image: "images/sections/3.jpg",
       isPricing: true,
       layout: "left",
       textColor: "text-light-gray"
     },
     {
-      title: "Flight Itinerary",
-      description: "Your experience begins with a group pickup and scenic drive to the launch site. After safety checks and a take-off briefing, you'll soar into the sky for 10–20 minutes.",
-      image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=600&fit=crop&q=80",
+      title: t("itinerary.title"),
+      description: t("itinerary.description"),
+      image: "images/sections/4.jpg",
       layout: "right",
       textColor: "text-deep-teal"
     },
     {
-      title: "What's Included",
-      description: "Each flight includes round-trip transport from Marrakech, a 10 to 20-minute tandem flight, full safety equipment including helmet, and optional photo/video package.",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop&q=80",
+      title: t("included.title"),
+      description: t("included.description"),
+      image: "images/sections/5.jpg",
       layout: "left",
       textColor: "text-light-gray"
     },
     {
-      title: "Certified Safety Standards",
-      description: "We are the only insured paragliding company in Morocco. Our team follows strict daily safety protocols and uses certified equipment. All pilots are USHPA licensed.",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=600&fit=crop&q=80",
+      title: t("safety.title"),
+      description: t("safety.description"),
+      image: "images/sections/6.jpg",
       layout: "right",
       textColor: "text-deep-teal"
     },
     {
-      title: "Who Can Fly",
-      description: "Paragliding is open to nearly everyone. We fly passengers aged 4 and up, including seniors. Weight range: 20kg-110kg. No prior experience required.",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop&q=80",
+      title: t("eligibility.title"),
+      description: t("eligibility.description"),
+      image: "images/sections/7.webp",
       layout: "left",
       textColor: "text-light-gray"
     }
@@ -102,7 +102,7 @@ const ParaglidingInfoBlock = () => {
               </div>
               
               {/* Text Content with Animation */}
-              <div className={`lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center bg-${index % 2 === 0 ? 'dark-blue' : 'slate-blue'} text-light-gray`}>
+              <div className={`lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center bg-${index % 2 === 0 ? 'dark-blue' : 'white'} text-light-gray`}>
                 <div 
                   className={`text-content transition-all duration-700 ease-out ${section.textColor} ${
                     visibleSections.has(index) 
@@ -126,10 +126,10 @@ const ParaglidingInfoBlock = () => {
                     <div className="text-center">
                       <div className="inline-block">
                         <div className="text-3xl lg:text-4xl font-light mb-4">
-                          700 DHS / 67 €
+                          {t("pricing.amount")}
                         </div>
                         <button className="w-full px-10 py-4 bg-deep-teal text-white text-lg font-medium tracking-wide hover:bg-opacity-90 transition-colors duration-300">
-                          BOOK NOW
+                          {t("bookNow")}
                         </button>
                       </div>
                     </div>

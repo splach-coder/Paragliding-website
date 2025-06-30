@@ -142,7 +142,7 @@ const Header = () => {
       >
         <div className="bg-black/20 backdrop-blur-xl border border-white/10 rounded-full shadow-xl">
           <motion.nav
-            className="flex items-center justify-between w-[700px]"
+            className="flex items-center justify-between w-[800px]"
             variants={contentVariants}
             initial="initial"
             animate={isLoaded ? "animate" : "initial"}
@@ -197,7 +197,7 @@ const Header = () => {
                 className="bg-white text-black px-6 py-3 rounded-full text-sm font-medium hover:bg-white/90 transition-all duration-200 flex items-center me-2"
                 variants={itemVariants}
               >
-                {t("nav.getStarted")}
+                <a href="/contact">{t("nav.getStarted")}</a>
                 <svg
                   className="ml-2 w-3 h-3"
                   viewBox="0 0 24 24"

@@ -1,73 +1,77 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { ArrowRight } from 'lucide-react';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { Facebook, Instagram, ArrowUp, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   const { t } = useTranslation();
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <footer className="text-light-gray relative">
+    <footer className="relative bg-gray-900 text-gray-300">
       {/* Image Gallery - Hidden on small screens, merges with above section */}
       <div className="hidden md:block absolute bottom-full">
         <div className="grid grid-cols-7 gap-0 items-end">
           {/* Column 1 - Tall */}
           <div className="h-48">
-            <img 
-              src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop&crop=face" 
+            <img
+              src="images/footer/1.JPG"
               alt="Fashion portrait"
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           {/* Column 2 - Medium */}
           <div className="h-64">
-            <img 
-              src="https://images.unsplash.com/photo-1506629905687-c9a4de01e940?w=400&h=500&fit=crop&crop=face" 
+            <img
+              src="images/footer/2.jpg"
               alt="Portrait photography"
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           {/* Column 3 - Short */}
           <div className="h-48">
-            <img 
-              src="https://images.unsplash.com/photo-1539571696557-407f5635b724?w=400&h=400&fit=crop&crop=center" 
+            <img
+              src="images/footer/3.JPG"
               alt="Creative setup"
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           {/* Column 4 - Extra Tall */}
           <div className="h-80">
-            <img 
-              src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=700&fit=crop&crop=face" 
+            <img
+              src="images/footer/4.jpg"
               alt="Fashion model"
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           {/* Column 5 - Medium */}
           <div className="h-60">
-            <img 
-              src="https://images.unsplash.com/photo-1445384763658-0400939829cd?w=400&h=500&fit=crop&crop=center" 
+            <img
+              src="images/footer/5.jpg"
               alt="Creative art"
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           {/* Column 6 - Tall */}
           <div className="h-72">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face" 
+            <img
+              src="images/footer/6.jpg"
               alt="Portrait"
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           {/* Column 7 - Short */}
           <div className="h-48">
-            <img 
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=450&fit=crop&crop=center" 
+            <img
+              src="images/footer/7.jpg"
               alt="Creative workspace"
               className="w-full h-full object-cover"
             />
@@ -75,120 +79,148 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-dark-blue">
+      {/* Main Footer Content */}
+      <div className="container mx-auto px-6 py-16 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
+          {/* Brand Column */}
+          <div className="md:col-span-2">
+            <h2 className="text-3xl font-light text-white mb-6 tracking-wider">
+              FLYTANDEM
+            </h2>
+            <p className="text-gray-400 mb-6 leading-relaxed">
+              Elevating your adventure experiences with professional guidance
+              and unparalleled excitement in the heart of nature.
+            </p>
+            <div className="flex space-x-4 mb-8">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
+                <Facebook size={20} />
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-pink-500 transition-colors"
+              >
+                <Instagram size={20} />
+              </a>
+            </div>
 
-      <div className="px-6 py-12 lg:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
-          {/* Newsletter Section */}
-          <div className="lg:col-span-2">
-            <h3 className="text-xl font-bold mb-6 text-white uppercase tracking-wider">
-              {t('footer.newsletter')}
-            </h3>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder={t('footer.emailPlaceholder')}
-                className="flex-1 bg-transparent border-b-2 border-grayish-teal py-2 px-0 text-light-gray placeholder-grayish-teal focus:border-light-gray focus:outline-none"
-              />
-              <button className="ml-4 text-light-gray hover:text-white transition-colors">
-                <ArrowRight size={24} />
-              </button>
+            {/* Contact Info */}
+            <div className="space-y-2">
+              <div className="flex items-center text-gray-400">
+                <Phone className="mr-3 h-4 w-4" />
+                <span>+212 651-452409</span>
+              </div>
+              <div className="flex items-center text-gray-400">
+                <Phone className="mr-3 h-4 w-4" />
+                <span>+212 611-501135</span>
+              </div>
             </div>
           </div>
 
           {/* Navigation Links */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 col-span-1 lg:col-span-3 gap-8">
-            {/* First Column */}
-            <div>
-              <nav className="space-y-3">
-                <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                  {t('footer.nav.home')}
+          <div>
+            <h3 className="text-white font-medium mb-6 text-lg uppercase tracking-wider">
+              Explore
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href="/"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Home
                 </a>
-                <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                  {t('footer.nav.works')}
+              </li>
+              <li>
+                <a
+                  href="/about"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  About Us
                 </a>
-                <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                  {t('footer.nav.about')}
+              </li>
+              <li>
+                <a
+                  href="/services"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Our Services
                 </a>
-                <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                  {t('footer.nav.studio')}
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Contact
                 </a>
-                <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                  {t('footer.nav.contact')}
-                </a>
-              </nav>
-            </div>
+              </li>
+            </ul>
+          </div>
 
-            {/* Second Column */}
-            <div className="">
-                <nav className="space-y-3">
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.instagram')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.tiktok')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.youtube')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.vimeo')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.facebook')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.linkedin')}
-                  </a>
-                </nav>
-            </div>
-
-            {/* Third Column */}
-            <div className="">
-                <nav className="space-y-3">
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.instagram')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.tiktok')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.youtube')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.vimeo')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.facebook')}
-                  </a>
-                  <a href="#" className="block text-light-gray hover:text-white transition-colors uppercase text-sm font-medium">
-                    {t('footer.social.linkedin')}
-                  </a>
-                </nav>
-            </div>
+          {/* Activities Links */}
+          <div>
+            <h3 className="text-white font-medium mb-6 text-lg uppercase tracking-wider">
+              Activities
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href="/activities/paragliding"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Paragliding
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/activities/quads"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Quad Biking
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/activities/camels"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Camel Rides
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/activities/horses"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Horseback Riding
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-12 pt-8 border-t border-slate-blue">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-4 md:space-y-0">
-            <p className="text-grayish-teal text-sm">
-              {t('footer.copyright')}
-            </p>
-            <div className="flex flex-wrap gap-6">
-              <a href="#" className="text-grayish-teal hover:text-white transition-colors text-sm">
-                {t('footer.legal.privacy')}
-              </a>
-              <a href="#" className="text-grayish-teal hover:text-white transition-colors text-sm">
-                {t('footer.legal.terms')}
-              </a>
-              <a href="#" className="text-grayish-teal hover:text-white transition-colors text-sm">
-                {t('footer.legal.termsOfUse')}
-              </a>
-            </div>
+        {/* Divider */}
+        <div className="border-t border-gray-800 my-12"></div>
+
+        {/* Bottom Bar */}
+        <div className="flex justify-center items-center">
+          <div className="text-sm text-gray-500 mb-4 md:mb-0">
+            © {new Date().getFullYear()} FlyTandem Adventures. All rights
+            reserved. Made by  <a
+              href="/wereact.agency"
+              className="text-sm text-gray-500 hover:text-white transition-colors"
+            >
+              WeReact Agency
+            </a>
           </div>
         </div>
-      </div>
       </div>
     </footer>
   );

@@ -6,7 +6,7 @@
     "services": "services",
     "pricing": "Pricing",
     "contact": "Contact",
-    "getStarted": "Get Started"
+    "getStarted": "Book Now"
   },
   "hero": {
     "slide1": {
@@ -115,45 +115,10 @@
     }
   },
   "footer": {
-    "newsletter": "Newsletter",
-    "emailPlaceholder": "Email address",
-    "nav": {
-      "home": "Home",
-      "works": "Works",
-      "about": "About Us",
-      "studio": "Studio",
-      "contact": "Contact"
-    },
-    "services": {
-      "title": "Services",
-      "production": "Production",
-      "ecommerce": "E-Commerce",
-      "casting": "Casting",
-      "locations": "Locations",
-      "staffing": "Creative Staffing"
-    },
-    "artists": {
-      "title": "Artists",
-      "photography": "Photography & Motion",
-      "wardrobe": "Wardrobe",
-      "glam": "Glam",
-      "creative": "Creative",
-      "setDesign": "Set Design"
-    },
-    "social": {
-      "instagram": "Instagram",
-      "tiktok": "TikTok",
-      "youtube": "YouTube",
-      "vimeo": "Vimeo",
-      "facebook": "Facebook",
-      "linkedin": "LinkedIn"
-    },
-    "copyright": "Copyright © 2025 Hyperion. Full Service Production. All rights reserved.",
-    "legal": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "termsOfUse": "Terms of Use"
-    }
+    "backToTop": "BACK TO TOP",
+    "callToAction": "READY FOR YOUR NEXT ADVENTURE?",
+    "designBy": "Design by",
+    "developmentBy": "Development by"
   },
   "quote": {
     "title": "Our Mission",
@@ -210,6 +175,67 @@
       "total_flights": "2500+",
       "students_trained": "800+",
       "safety_record": "100%"
+    }
+  },
+  "paragliding": {
+    "title": "Paragliding Over Marrakech",
+    "description": "Take off on a once-in-a-lifetime tandem paragliding experience over the Agafay Desert. Glide through the skies with our certified pilots and witness Morocco from an unforgettable perspective."
+  },
+  "expertFlights": {
+    "title": "Expert-Led Tandem Flights",
+    "description": "Our agency specializes in organizing paragliding flights across Marrakech and Morocco. Backed by a national team of aviation professionals with years of hands-on expertise."
+  },
+  "pricing": {
+    "title": "Price Per Person",
+    "description": "Enjoy your full tandem paragliding experience for just 700 Dhs. Advance booking required.",
+    "amount": "700 DHS"
+  },
+  "itinerary": {
+    "title": "Flight Itinerary",
+    "description": "Your experience begins with a group pickup and scenic drive to the launch site. After safety checks and a take-off briefing, you'll soar into the sky for 10–20 minutes."
+  },
+  "included": {
+    "title": "What's Included",
+    "description": "Each flight includes round-trip transport from Marrakech, a 10 to 20-minute tandem flight, full safety equipment including helmet, and optional photo/video package."
+  },
+  "safety": {
+    "title": "Certified Safety Standards",
+    "description": "We are the only insured paragliding company in Morocco. Our team follows strict daily safety protocols and uses certified equipment. All pilots are USHPA licensed."
+  },
+  "eligibility": {
+    "title": "Who Can Fly",
+    "description": "Paragliding is open to nearly everyone. We fly passengers aged 4 and up, including seniors. Weight range: 20kg-110kg. No prior experience required."
+  },
+  "bookNow": "BOOK NOW",
+  "tour": {
+    "name": "Paragliding Agafay Experience",
+    "description": "A thrilling tandem flight over the Agafay Desert with certified pilots.",
+    "transportNote": "Transport from Marrakech available at extra cost.",
+    "steps": {
+      "arrival": {
+        "title": "Arrival at Meeting Point",
+        "desc": "Meet the team and other participants at the designated spot near Aguergour."
+      },
+      "drive": {
+        "title": "Drive to Launch Site",
+        "desc": "Hop in the 4x4 and head up the rocky tracks to the takeoff zone overlooking Agafay."
+      },
+      "safety": {
+        "title": "Scenic Prep & Safety Briefing",
+        "desc": "Enjoy the desert view while pilots set up gear. Get briefed and geared up."
+      },
+      "flight": {
+        "title": "Takeoff & Flight",
+        "desc": "Lift off and glide through the sky for 10–20 minutes, feeling the breeze."
+      },
+      "landing": {
+        "title": "Smooth Landing",
+        "desc": "Land safely at our designated zone and review in-flight media."
+      },
+      "transport": {
+        "title": "Optional Transport Back",
+        "desc": "Return transport available to Marrakech if booked in advance."
+      }
     }
   }
 }

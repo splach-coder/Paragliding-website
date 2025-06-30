@@ -5,7 +5,7 @@ import QuoteSection from "../components/QuoteSection";
 
 
 // Main App Component
-const About = () => {
+const Services = () => {
 
   return (
     <MainLayout>
@@ -15,4 +15,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Services;
