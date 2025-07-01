@@ -102,7 +102,7 @@ const ParaglidingInfoBlock = () => {
               </div>
               
               {/* Text Content with Animation */}
-              <div className={`lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center bg-${index % 2 === 0 ? 'dark-blue' : 'white'} text-light-gray`}>
+              <div className={`lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center ${index % 2 == 0 ? 'bg-dark-blue' : 'bg-white'} text-light-gray`}>
                 <div 
                   className={`text-content transition-all duration-700 ease-out ${section.textColor} ${
                     visibleSections.has(index) 
@@ -129,7 +129,7 @@ const ParaglidingInfoBlock = () => {
                           {t("pricing.amount")}
                         </div>
                         <button className="w-full px-10 py-4 bg-deep-teal text-white text-lg font-medium tracking-wide hover:bg-opacity-90 transition-colors duration-300">
-                          {t("bookNow")}
+                          <a href="/contact">{t("bookNow")}</a>
                         </button>
                       </div>
                     </div>

@@ -76,6 +76,43 @@ const Header = () => {
 
   useEffect(() => {
     setIsLoaded(true);
+    
+    // Function to detect active section from URL
+    const detectActiveSection = () => {
+      const path = window.location.pathname;
+      const pathSegments = path.split('/').filter(segment => segment !== '');
+      
+      if (pathSegments.length === 0 || path === '/') {
+        setActiveSection("Home");
+      } else {
+        const currentPage = pathSegments[pathSegments.length - 1].toLowerCase();
+        
+        const foundItem = navItems.find(item => 
+          item.link.toLowerCase() === currentPage || 
+          item.id.toLowerCase() === currentPage
+        );
+        
+        if (foundItem) {
+          setActiveSection(foundItem.id);
+        } else {
+          setActiveSection("Home");
+        }
+      }
+    };
+
+    // Detect on initial load
+    detectActiveSection();
+
+    // Listen for URL changes (for SPAs)
+    const handlePopState = () => {
+      detectActiveSection();
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
   }, []);
 
   const mobileMenuVariants = {
@@ -170,15 +207,18 @@ const Header = () => {
                 <motion.a
                   key={item.id}
                   href={`${item.link}`}
-                  onClick={() => setActiveSection(item.id)}
-                  className="relative flex items-center text-white/80 hover:text-white text-sm font-medium transition-colors duration-200 group"
-                  variants={itemVariants}
+                  className={`relative flex items-center text-white/80 hover:text-white text-sm font-medium transition-colors duration-200 group ${
+                      activeSection === item.id
+                        ? "text-white"
+                        : "text-white/80"
+                    }`}                 
+                     variants={itemVariants}
                 >
                   <div
                     className={`w-1 h-1 bg-white rounded-full mr-1 transition-opacity duration-200 ${
                       activeSection === item.id
-                        ? "opacity-100"
-                        : "opacity-0 group-hover:opacity-100"
+                        ? "opacity-100 text-white"
+                        : "opacity-0 group-hover:opacity-100 text-white/80"
                     }`}
                   ></div>
                   {item.label}
@@ -228,7 +268,7 @@ const Header = () => {
                 <img
                   src="/images/logo/Flt Tandem.png"
                   alt="logo"
-                  className="h-8 w-auto object-contain"
+                  className="h-10 w-auto object-contain"
                 />
               </a>
             </div>
@@ -263,7 +303,6 @@ const Header = () => {
                       key={item.id}
                       href={`${item.link}`}
                       onClick={() => {
-                        setActiveSection(item.id);
                         setIsMenuOpen(false);
                       }}
                       className="flex items-center text-white/80 hover:text-white px-3 py-3 text-sm font-medium hover:bg-white/10 rounded-lg transition-colors duration-200 group"
