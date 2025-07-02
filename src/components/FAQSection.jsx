@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import WhatsAppButton from "./WhatsAppButton";
+import WhatsAppButton from "./WhatsappButton";
 
 // Configuration data (non-translatable content)
 const faqConfig = {
   linkUrl: "https://wa.me/212651452409", // Replace with your actual WhatsApp number
   questionsCount: 6 // Number of questions for dynamic rendering
 };
-
-
 
 const FAQSection = () => {
   const { t } = useTranslation();
