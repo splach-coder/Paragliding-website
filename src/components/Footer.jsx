@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Column 1 - Tall */}
           <div className="h-48">
             <img
-              src="images/footer/1.JPG"
+              src="/images/footer/1.JPG"
               alt="Fashion portrait"
               className="w-full h-full object-cover"
             />
@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Column 2 - Medium */}
           <div className="h-64">
             <img
-              src="images/footer/2.jpg"
+              src="/images/footer/2.jpg"
               alt="Portrait photography"
               className="w-full h-full object-cover"
             />
@@ -35,7 +35,7 @@ const Footer = () => {
           {/* Column 3 - Short */}
           <div className="h-48">
             <img
-              src="images/footer/3.JPG"
+              src="/images/footer/3.JPG"
               alt="Creative setup"
               className="w-full h-full object-cover"
             />
@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Column 4 - Extra Tall */}
           <div className="h-80">
             <img
-              src="images/footer/4.jpg"
+              src="/images/footer/4.jpg"
               alt="Fashion model"
               className="w-full h-full object-cover"
             />
@@ -53,7 +53,7 @@ const Footer = () => {
           {/* Column 5 - Medium */}
           <div className="h-60">
             <img
-              src="images/footer/5.jpg"
+              src="/images/footer/5.jpg"
               alt="Creative art"
               className="w-full h-full object-cover"
             />
@@ -62,7 +62,7 @@ const Footer = () => {
           {/* Column 6 - Tall */}
           <div className="h-72">
             <img
-              src="images/footer/6.jpg"
+              src="/images/footer/6.jpg"
               alt="Portrait"
               className="w-full h-full object-cover"
             />
@@ -71,7 +71,7 @@ const Footer = () => {
           {/* Column 7 - Short */}
           <div className="h-48">
             <img
-              src="images/footer/7.jpg"
+              src="/images/footer/7.jpg"
               alt="Creative workspace"
               className="w-full h-full object-cover"
             />
@@ -174,7 +174,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="/activities/paragliding"
+                  href="/service/paragliding"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Paragliding
@@ -182,7 +182,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/activities/quads"
+                  href="/service/quad"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Quad Biking
@@ -190,7 +190,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/activities/camels"
+                  href="/service/camel"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Camel Rides
@@ -198,7 +198,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/activities/horses"
+                  href="/service/horse"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Horseback Riding

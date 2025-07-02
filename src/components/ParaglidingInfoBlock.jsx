@@ -81,7 +81,7 @@ const ParaglidingInfoBlock = () => {
   }, []);
 
   return (
-    <div className="relative w-full bg-light-gray" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
+    <div className="relative pt-14 md:pt-0 w-full bg-light-gray" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
       {/* Content Container */}
       <div className="relative z-20 max-w-full mx-auto">
         {/* Grid Layout */}

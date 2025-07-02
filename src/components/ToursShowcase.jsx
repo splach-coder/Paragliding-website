@@ -18,7 +18,7 @@ const ToursShowcase = () => {
       description: t('tours.paragliding.description'),
       image: 'images/tours/paraglide.jpg',
       bgImage: 'images/tours/paraglide.jpg',
-      link: '/services#paragliding'
+      link: '/service/paragliding'
     },
     {
       id: 1,
@@ -26,7 +26,7 @@ const ToursShowcase = () => {
       description: t('tours.horses.description'),
       image: 'images/tours/horses.JPG',
       bgImage: 'images/tours/horses.JPG',
-      link: '/services#horses'
+      link: '/service/horse'
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const ToursShowcase = () => {
       description: t('tours.camels.description'),
       image: 'images/tours/camels.jpg',
       bgImage: 'images/tours/camels.jpg',
-      link: '/services#camels'
+      link: '/service/camel'
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const ToursShowcase = () => {
       description: t('tours.quad.description'),
       image: 'images/tours/quad.webp',
       bgImage: 'images/tours/quad.webp',
-      link: '/services#quads'
+      link: '/service/quad'
     }
   ];
 

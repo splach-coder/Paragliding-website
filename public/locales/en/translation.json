@@ -210,7 +210,6 @@
   "tour": {
     "name": "Paragliding Agafay Experience",
     "description": "A thrilling tandem flight over the Agafay Desert with certified pilots.",
-    "transportNote": "Transport from Marrakech available at extra cost.",
     "steps": {
       "arrival": {
         "title": "Arrival at Meeting Point",
@@ -350,5 +349,9 @@
         "answer": "Full refunds are available up to 48 hours before the flight. After that, partial refunds may apply depending on the case."
       }
     }
-  }
+  },
+  "services": {
+  "title": "Choose Your Next Adventure",
+  "subtitle": "From the skies to the desert trails, explore our unique selection of unforgettable outdoor experiences around Marrakech."
+}
 }

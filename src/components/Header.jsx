@@ -69,9 +69,9 @@ const Header = () => {
 
   const navItems = [
     { id: "Home", label: t("nav.home"), link: '/' },
-    { id: "About", label: t("nav.about"), link: 'about' },
-    { id: "Services", label: t("nav.services"), link: 'services' },
-    { id: "Contact", label: t("nav.contact"), link: 'contact' },
+    { id: "About", label: t("nav.about"), link: '/about' },
+    { id: "Services", label: t("nav.services"), link: '/services' },
+    { id: "Contact", label: t("nav.contact"), link: '/contact' },
   ];
 
   useEffect(() => {
