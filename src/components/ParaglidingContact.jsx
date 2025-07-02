@@ -153,7 +153,7 @@ Looking forward to hearing from you!`;
             {/* Google Maps */}
             <div className="h-96 lg:h-full bg-slate-200 relative overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.175089956085!2d-8.008881284770891!3d31.630427981341647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adf8!2sMarrakech%2C%20Morocco!5e0!3m2!1sen!2s!4v1635789012345!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.771856755538!2d-8.0652108!3d31.2970467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb01f56a4196273%3A0xe11f9709a8f6de93!2sFlyMarrakech!5e1!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

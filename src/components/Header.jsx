@@ -16,7 +16,7 @@ const LangSwitcher = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center text-white/80 hover:text-white text-sm font-medium px-1 rounded-md hover:bg-white/10 transition-all duration-200"
+        className="flex items-center text-white text-sm font-medium px-1 rounded-md hover:bg-white/20 transition-all duration-200"
         aria-label="Change language"
       >
         <span className="uppercase mr-1">
@@ -36,7 +36,7 @@ const LangSwitcher = () => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.15 }}
-            className="absolute right-0 mt-2 w-20 bg-black/40 backdrop-blur-lg rounded-lg shadow-lg border border-white/20 z-50"
+            className="absolute right-0 mt-2 w-20 bg-black/60 backdrop-blur-lg rounded-lg shadow-lg border border-white/20 z-50"
           >
             {languages.map((lang) => (
               <button
@@ -68,16 +68,15 @@ const Header = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const navItems = [
-    { id: "Home", label: t("nav.home") , link: '/' },
+    { id: "Home", label: t("nav.home"), link: '/' },
     { id: "About", label: t("nav.about"), link: 'about' },
     { id: "Services", label: t("nav.services"), link: 'services' },
-    { id: "Contact", label: t("nav.contact") , link: 'contact' },
+    { id: "Contact", label: t("nav.contact"), link: 'contact' },
   ];
 
   useEffect(() => {
     setIsLoaded(true);
     
-    // Function to detect active section from URL
     const detectActiveSection = () => {
       const path = window.location.pathname;
       const pathSegments = path.split('/').filter(segment => segment !== '');
@@ -100,10 +99,8 @@ const Header = () => {
       }
     };
 
-    // Detect on initial load
     detectActiveSection();
 
-    // Listen for URL changes (for SPAs)
     const handlePopState = () => {
       detectActiveSection();
     };
@@ -142,7 +139,7 @@ const Header = () => {
     },
     animate: {
       width: "auto",
-      height: "auto",
+      height: "56px", // Fixed height
       borderRadius: "9999px",
       transition: {
         duration: 0.8,
@@ -177,48 +174,48 @@ const Header = () => {
         initial="initial"
         animate={isLoaded ? "animate" : "initial"}
       >
-        <div className="bg-black/20 backdrop-blur-xl border border-white/10 rounded-full shadow-xl">
+        <div className="bg-black/40 backdrop-blur-xl border border-white/10 rounded-full shadow-xl h-full">
           <motion.nav
-            className="flex items-center justify-between w-[800px]"
+            className="flex items-center justify-between w-[800px] h-full"
             variants={contentVariants}
             initial="initial"
             animate={isLoaded ? "animate" : "initial"}
           >
-            {/* Logo */}
+            {/* Logo - Made larger */}
             <motion.div
-              className="flex items-center ml-6"
+              className="flex items-center ms-6"
               variants={itemVariants}
             >
               <a href="/" className="flex items-center">
                 <img
                   src="/images/logo/Flt Tandem.png"
                   alt="logo"
-                  className="h-14 w-auto"
+                  className="h-16 w-auto"
                 />
               </a>
             </motion.div>
 
             {/* Desktop Navigation */}
             <motion.div
-              className="flex items-center gap-6"
+              className="flex items-center gap-6 h-full"
               variants={itemVariants}
             >
               {navItems.map((item) => (
                 <motion.a
                   key={item.id}
                   href={`${item.link}`}
-                  className={`relative flex items-center text-white/80 hover:text-white text-sm font-medium transition-colors duration-200 group ${
-                      activeSection === item.id
-                        ? "text-white"
-                        : "text-white/80"
-                    }`}                 
-                     variants={itemVariants}
+                  className={`relative flex items-center h-full hover:text-white text-sm font-medium transition-colors duration-200 group ${
+                    activeSection === item.id
+                      ? "text-white"
+                      : "text-white/60 hover:text-white"
+                  }`}
+                  variants={itemVariants}
                 >
                   <div
                     className={`w-1 h-1 bg-white rounded-full mr-1 transition-opacity duration-200 ${
                       activeSection === item.id
-                        ? "opacity-100 text-white"
-                        : "opacity-0 group-hover:opacity-100 text-white/80"
+                        ? "opacity-100"
+                        : "opacity-0 group-hover:opacity-100"
                     }`}
                   ></div>
                   {item.label}
@@ -226,7 +223,7 @@ const Header = () => {
               ))}
             </motion.div>
 
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1 h-full">
               {/* Language Switcher */}
               <motion.div variants={itemVariants}>
                 <LangSwitcher />
@@ -234,7 +231,7 @@ const Header = () => {
 
               {/* CTA Button */}
               <motion.button
-                className="bg-white text-black px-6 py-3 rounded-full text-sm font-medium hover:bg-white/90 transition-all duration-200 flex items-center me-2"
+                className="bg-white text-black px-6 py-2.5 me-2 rounded-full text-sm font-medium hover:bg-white/90 transition-all duration-200 flex items-center"
                 variants={itemVariants}
               >
                 <a href="/contact">{t("nav.getStarted")}</a>
@@ -259,16 +256,16 @@ const Header = () => {
       </motion.header>
 
       {/* Mobile Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 md:hidden">
-        <div className="bg-black/20 backdrop-blur-xl border-b border-white/10">
-          <nav className="flex items-center justify-between px-4 py-4">
-            {/* Mobile Logo */}
-            <div className="flex items-center">
-              <a href="/" className="flex items-center">
+      <header className="fixed top-0 left-0 right-0 z-50 md:hidden h-[56px]">
+        <div className="bg-black/20 backdrop-blur-xl border-b border-white/10 h-full">
+          <nav className="flex items-center justify-between px-4 h-full">
+            {/* Mobile Logo - Made larger */}
+            <div className="flex items-center h-full">
+              <a href="/" className="flex items-center h-full">
                 <img
                   src="/images/logo/Flt Tandem.png"
                   alt="logo"
-                  className="h-10 w-auto object-contain"
+                  className="h-12 w-auto object-contain" // Increased from h-10 to h-12
                 />
               </a>
             </div>
@@ -295,9 +292,9 @@ const Header = () => {
                 animate="open"
                 exit="closed"
                 variants={mobileMenuVariants}
-                className="overflow-hidden"
+                className="overflow-hidden absolute top-[56px] left-0 right-0 bg-black/20 backdrop-blur-xl border-b border-white/10"
               >
-                <div className="px-4 pb-4 space-y-2 border-t border-white/10">
+                <div className="px-4 pb-4 space-y-2">
                   {navItems.map((item) => (
                     <a
                       key={item.id}
@@ -305,7 +302,11 @@ const Header = () => {
                       onClick={() => {
                         setIsMenuOpen(false);
                       }}
-                      className="flex items-center text-white/80 hover:text-white px-3 py-3 text-sm font-medium hover:bg-white/10 rounded-lg transition-colors duration-200 group"
+                      className={`flex items-center px-3 py-3 text-sm font-medium hover:bg-white/10 rounded-lg transition-colors duration-200 group ${
+                        activeSection === item.id
+                          ? "text-white" // Always white for active items
+                          : "text-white/80 hover:text-white"
+                      }`}
                     >
                       <div
                         className={`w-1 h-1 bg-white rounded-full mr-3 transition-opacity duration-200 ${

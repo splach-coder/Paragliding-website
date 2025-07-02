@@ -84,9 +84,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           {/* Brand Column */}
           <div className="md:col-span-2">
-            <h2 className="text-3xl font-light text-white mb-6 tracking-wider">
-              FLYTANDEM
-            </h2>
+            <img
+              className="h-40"
+              src="/images/logo/Flt Tandem.png"
+              alt="logo"
+            />
             <p className="text-gray-400 mb-6 leading-relaxed">
               Elevating your adventure experiences with professional guidance
               and unparalleled excitement in the heart of nature.
@@ -213,8 +215,11 @@ const Footer = () => {
         <div className="flex justify-center items-center">
           <div className="text-sm text-gray-500 mb-4 md:mb-0">
             © {new Date().getFullYear()} FlyTandem Adventures. All rights
-            reserved. Made by  <a
-              href="/wereact.agency"
+            reserved. Made by{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wereact.agency"
               className="text-sm text-gray-500 hover:text-white transition-colors"
             >
               WeReact Agency

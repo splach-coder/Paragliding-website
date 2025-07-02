@@ -236,6 +236,119 @@
         "title": "Optional Transport Back",
         "desc": "Return transport available to Marrakech if booked in advance."
       }
+    },
+    "transportNote": "Transport from Marrakech available at extra cost.",
+
+    "quad": {
+      "name": "Agafay Desert Quad Adventure",
+      "description": "Ride through the rocky Agafay terrain with an adrenaline-pumping quad bike experience.",
+      "steps": {
+        "arrival": {
+          "title": "Arrival & Welcome",
+          "desc": "Arrive at the base camp and meet your quad guide."
+        },
+        "briefing": {
+          "title": "Safety Briefing",
+          "desc": "Learn how to operate the quad and receive safety gear."
+        },
+        "ride": {
+          "title": "Desert Ride",
+          "desc": "Cruise through rocky landscapes, dry riverbeds, and desert tracks."
+        },
+        "break": {
+          "title": "Tea Break",
+          "desc": "Pause at a Berber tent for mint tea and a quick rest."
+        },
+        "return": {
+          "title": "Return Ride",
+          "desc": "Head back to base camp and park your quad."
+        }
+      }
+    },
+
+    "camel": {
+      "name": "Sunset Camel Ride in Agafay",
+      "description": "Experience a peaceful camel trek through the desert at golden hour.",
+      "steps": {
+        "arrival": {
+          "title": "Arrival & Check-in",
+          "desc": "Arrive at the camp and get introduced to your camel."
+        },
+        "dress": {
+          "title": "Traditional Dress-Up",
+          "desc": "Wear a cheich and outfit for a more authentic ride."
+        },
+        "ride": {
+          "title": "Camel Trek Begins",
+          "desc": "Enjoy a calm ride over dunes and hills with scenic views."
+        },
+        "sunset": {
+          "title": "Watch the Sunset",
+          "desc": "Stop at a scenic viewpoint to soak in the Agafay sunset."
+        },
+        "return": {
+          "title": "Return to Camp",
+          "desc": "Ride back to the starting point and relax with tea."
+        }
+      }
+    },
+
+    "horse": {
+      "name": "Morning Horseback Ride",
+      "description": "Explore the peaceful outskirts of Marrakech on a guided horseback ride.",
+      "steps": {
+        "arrival": {
+          "title": "Arrival & Introduction",
+          "desc": "Meet your guide and get assigned to a horse based on your skill."
+        },
+        "grooming": {
+          "title": "Grooming & Prep",
+          "desc": "Brush and bond with your horse before mounting."
+        },
+        "ride": {
+          "title": "Trail Ride",
+          "desc": "Ride through trails with views of the Atlas Mountains."
+        },
+        "rest": {
+          "title": "Mid-Ride Break",
+          "desc": "Stop for water and a short rest in a shaded area."
+        },
+        "return": {
+          "title": "Return to Stables",
+          "desc": "Finish the loop and return to the ranch area."
+        }
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Can't find the answer you're looking for? Contact me directly on WhatsApp and I'll get back to you as soon as possible.",
+    "linkText": "Contact me on WhatsApp",
+    "questions": {
+      "0": {
+        "question": "Why should I trust Fly Tandem with my experience?",
+        "answer": "We prioritize safety, professionalism, and unforgettable moments. Our certified pilots, clear process, and strong safety standards make us a trusted choice for paragliding and adventure experiences in Morocco."
+      },
+      "1": {
+        "question": "Is there a free trial available?",
+        "answer": "While we don't offer free flights (sadly 😅), you can always get a free consultation or visit to understand how it all works before booking."
+      },
+      "2": {
+        "question": "How long will my experience last?",
+        "answer": "The full experience takes around 2–3 hours including preparation, briefing, transport (if included), and flight. The flight itself lasts 10–20 minutes depending on conditions."
+      },
+      "3": {
+        "question": "What happens if I stop or cancel? Can I get media?",
+        "answer": "If the flight is cancelled due to weather or safety, we reschedule or refund. All photo/video content is available for download after your flight — even if cancelled mid-air for any reason."
+      },
+      "4": {
+        "question": "Can I change my booking later?",
+        "answer": "Yes! You can reschedule your booking up to 24 hours in advance. Just contact us via WhatsApp and we'll take care of it."
+      },
+      "5": {
+        "question": "What's your cancellation policy?",
+        "answer": "Full refunds are available up to 48 hours before the flight. After that, partial refunds may apply depending on the case."
+      }
     }
   }
 }

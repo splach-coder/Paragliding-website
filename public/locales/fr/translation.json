@@ -236,6 +236,119 @@
         "title": "Transport retour optionnel",
         "desc": "Le transport de retour à Marrakech est disponible si réservé à l’avance."
       }
+    },
+    "transportNote": "Transport depuis Marrakech disponible en supplément.",
+
+    "quad": {
+      "name": "Aventure en Quad dans le Désert d’Agafay",
+      "description": "Parcourez les terrains rocailleux d’Agafay lors d’une expérience en quad pleine d’adrénaline.",
+      "steps": {
+        "arrival": {
+          "title": "Arrivée & Accueil",
+          "desc": "Arrivez au camp de base et rencontrez votre guide quad."
+        },
+        "briefing": {
+          "title": "Briefing de Sécurité",
+          "desc": "Apprenez à conduire le quad et recevez l’équipement de sécurité."
+        },
+        "ride": {
+          "title": "Balade dans le Désert",
+          "desc": "Conduisez à travers les paysages rocailleux et les pistes désertiques."
+        },
+        "break": {
+          "title": "Pause Thé",
+          "desc": "Arrêtez-vous dans une tente berbère pour un thé à la menthe."
+        },
+        "return": {
+          "title": "Retour au Camp",
+          "desc": "Retournez au point de départ et garez votre quad."
+        }
+      }
+    },
+
+    "camel": {
+      "name": "Balade à Dos de Chameau au Coucher du Soleil",
+      "description": "Profitez d’une balade paisible à dos de chameau dans le désert au coucher du soleil.",
+      "steps": {
+        "arrival": {
+          "title": "Arrivée & Accueil",
+          "desc": "Arrivez au camp et faites connaissance avec votre chameau."
+        },
+        "dress": {
+          "title": "Habillage Traditionnel",
+          "desc": "Portez un chèche pour une immersion complète."
+        },
+        "ride": {
+          "title": "Début de la Balade",
+          "desc": "Traversez les dunes en douceur avec des vues magnifiques."
+        },
+        "sunset": {
+          "title": "Pause Coucher du Soleil",
+          "desc": "Arrêtez-vous pour admirer le coucher du soleil d’Agafay."
+        },
+        "return": {
+          "title": "Retour au Camp",
+          "desc": "Revenez tranquillement au point de départ et détendez-vous avec du thé."
+        }
+      }
+    },
+
+    "horse": {
+      "name": "Balade Matinale à Cheval",
+      "description": "Explorez les alentours calmes de Marrakech à cheval avec un guide.",
+      "steps": {
+        "arrival": {
+          "title": "Arrivée & Présentation",
+          "desc": "Rencontrez votre guide et assignez-vous un cheval adapté."
+        },
+        "grooming": {
+          "title": "Préparation du Cheval",
+          "desc": "Brossez et préparez votre cheval avant la balade."
+        },
+        "ride": {
+          "title": "Balade Guidée",
+          "desc": "Suivez les sentiers avec vue sur les montagnes de l’Atlas."
+        },
+        "rest": {
+          "title": "Pause",
+          "desc": "Faites une petite pause dans un endroit ombragé."
+        },
+        "return": {
+          "title": "Retour à l'Écurie",
+          "desc": "Terminez le circuit et retournez au point de départ."
+        }
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "subtitle": "Vous ne trouvez pas la réponse que vous cherchez ? Contactez-moi directement sur WhatsApp et je vous répondrai dès que possible.",
+    "linkText": "Me contacter sur WhatsApp",
+    "questions": {
+      "0": {
+        "question": "Pourquoi devrais-je faire confiance à Fly Tandem pour mon expérience ?",
+        "answer": "Nous privilégions la sécurité, le professionnalisme et les moments inoubliables. Nos pilotes certifiés, notre processus clair et nos normes de sécurité élevées font de nous un choix de confiance pour le parapente et les expériences d'aventure au Maroc."
+      },
+      "1": {
+        "question": "Y a-t-il un essai gratuit disponible ?",
+        "answer": "Bien que nous n'offrions pas de vols gratuits (malheureusement 😅), vous pouvez toujours obtenir une consultation gratuite ou une visite pour comprendre comment tout fonctionne avant de réserver."
+      },
+      "2": {
+        "question": "Combien de temps durera mon expérience ?",
+        "answer": "L'expérience complète dure environ 2 à 3 heures, y compris la préparation, le briefing, le transport (si inclus) et le vol. Le vol lui-même dure 10 à 20 minutes selon les conditions."
+      },
+      "3": {
+        "question": "Que se passe-t-il si j'arrête ou annule ? Puis-je obtenir les médias ?",
+        "answer": "Si le vol est annulé en raison de la météo ou de la sécurité, nous le reprogrammons ou remboursons. Tout le contenu photo/vidéo est disponible en téléchargement après votre vol — même s'il est annulé en plein air pour quelque raison que ce soit."
+      },
+      "4": {
+        "question": "Puis-je modifier ma réservation plus tard ?",
+        "answer": "Oui ! Vous pouvez reprogrammer votre réservation jusqu'à 24 heures à l'avance. Contactez-nous simplement via WhatsApp et nous nous en occuperons."
+      },
+      "5": {
+        "question": "Quelle est votre politique d'annulation ?",
+        "answer": "Des remboursements complets sont disponibles jusqu'à 48 heures avant le vol. Après cela, des remboursements partiels peuvent s'appliquer selon le cas."
+      }
     }
   }
 }

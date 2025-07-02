@@ -5,7 +5,7 @@ import ToursShowcase from "../components/ToursShowcase";
 import ParaglidingInfoBlock from "../components/ParaglidingInfoBlock";
 import QuoteSection from "../components/QuoteSection";
 import ParaglidingTeam from "../components/ParaglidingTeam";
-
+import FAQSection from "../components/FAQSection";
 
 // Main App Component
 const Home = () => {
@@ -16,6 +16,7 @@ const Home = () => {
       <ParaglidingInfoBlock />
       <ParaglidingTeam />
       <ToursShowcase />
+      <FAQSection />
       <QuoteSection />
     </MainLayout>
   );
