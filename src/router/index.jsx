@@ -1,42 +1,20 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import MainLayout from "../layouts/MainLayout";
-import TourTimelineSection from "../components/TourTimelineSection";
-import {
-  paraglidingTimeline,
-  quadTimeline,
-  camelTimeline,
-  horseTimeline,
-} from "../data/tourTimelines"; // <- adjust path if needed
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import Services from "../pages/Services";
+import Service from "../pages/Service";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
 
-const timelines = {
-  paragliding: paraglidingTimeline,
-  quad: quadTimeline,
-  camel: camelTimeline,
-  horse: horseTimeline,
-};
-
-const Service = () => {
-  const { service } = useParams();
-  const timelineData = timelines[service];
-
-  if (!timelineData) {
-    return (
-      <MainLayout>
-        <div className="min-h-[50vh] flex items-center justify-center text-gray-500 text-xl">
-          Service not found: {service}
-        </div>
-      </MainLayout>
-    );
-  }
-
+export default function AppRouter() {
   return (
-    <MainLayout>
-      <div className="md:mt-20 md:mb-80">
-        <TourTimelineSection timelineData={timelineData} />
-      </div>
-    </MainLayout>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/service/:service" element={<Service />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
-
-export default Service;
+}
