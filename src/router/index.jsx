@@ -4,6 +4,7 @@ import Services from "../pages/Services";
 import Service from "../pages/Service";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
+import Gallery from "../pages/Gallery";
 
 export default function AppRouter() {
   return (
@@ -13,6 +14,7 @@ export default function AppRouter() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/service/:service" element={<Service />} />
       </Routes>
     </BrowserRouter>

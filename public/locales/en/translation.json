@@ -4,7 +4,7 @@
     "home": "Home",
     "experiences": "Experiences",
     "services": "services",
-    "pricing": "Pricing",
+    "gallery": "Gallery",
     "contact": "Contact",
     "getStarted": "Book Now"
   },
@@ -353,5 +353,9 @@
   "services": {
   "title": "Choose Your Next Adventure",
   "subtitle": "From the skies to the desert trails, explore our unique selection of unforgettable outdoor experiences around Marrakech."
+},
+"gallery": {
+  "title": "Our Experience in Photos",
+  "description": "A glimpse of the unforgettable moments captured during our tours and adventures."
 }
 }

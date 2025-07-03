@@ -29,6 +29,7 @@ const LangSwitcher = () => {
         />
       </button>
 
+
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -71,7 +72,7 @@ const Header = () => {
     { id: "Home", label: t("nav.home"), link: '/' },
     { id: "About", label: t("nav.about"), link: '/about' },
     { id: "Services", label: t("nav.services"), link: '/services' },
-    { id: "Contact", label: t("nav.contact"), link: '/contact' },
+    { id: "Gallery", label: t("nav.gallery"), link: '/gallery' },
   ];
 
   useEffect(() => {
