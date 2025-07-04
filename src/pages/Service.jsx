@@ -33,6 +33,11 @@ const Service = () => {
   return (
     <MainLayout>
       <div className="md:mt-20 md:mb-80">
+        <SeoHead
+          title={`${timelineData.name} | Book Now with FlyTandem`}
+          description={timelineData.description}
+          image={timelineData.steps[0].image}
+        />
         <TourTimelineSection timelineData={timelineData} />
       </div>
     </MainLayout>

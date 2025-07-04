@@ -115,6 +115,10 @@ const Footer = () => {
             {/* Contact Info */}
             <div className="space-y-2">
               <div className="flex items-center text-gray-400">
+                <Mail className="mr-3 h-4 w-4" />
+                <span>flytandem10@gmail.com</span>
+              </div>
+              <div className="flex items-center text-gray-400">
                 <Phone className="mr-3 h-4 w-4" />
                 <span>+212 651-452409</span>
               </div>
@@ -153,6 +157,14 @@ const Footer = () => {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Our Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/gallery"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Gallery
                 </a>
               </li>
               <li>

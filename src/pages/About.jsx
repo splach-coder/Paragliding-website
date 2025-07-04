@@ -8,6 +8,12 @@ import FAQSection from "../components/FAQSection";
 const About = () => {
   return (
     <MainLayout>
+      <SeoHead
+        title="About FlyTandem | Meet the Team Behind Morocco’s Top Adventure Tours"
+        description="FlyTandem is a local agency offering thrilling outdoor experiences in Marrakech, led by licensed pilots and guides passionate about adventure."
+        image="/images/tours/paraglide.jpg"
+      />
+
       <div className="bg-white md:mb-80">
         <ParaglidingInfoBlock />
         <ParaglidingTeam />

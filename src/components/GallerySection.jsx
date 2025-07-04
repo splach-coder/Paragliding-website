@@ -172,18 +172,18 @@ const GallerySection = () => {
   
   // Gallery data with varied heights and alt text for accessibility
   const galleryItems = [
-    { id: 1, img: "/images/gallery/gallery-1.jpg", height: 400, alt: "Tandem paragliding flight over mountain landscape" },
-    { id: 2, img: "/images/gallery/gallery-2.jpg", height: 300, alt: "Paraglider preparing for takeoff" },
-    { id: 3, img: "/images/gallery/gallery-3.jpg", height: 500, alt: "Aerial view of coastline during tandem flight" },
-    { id: 4, img: "/images/gallery/gallery-4.jpg", height: 350, alt: "Instructor and passenger before flight" },
-    { id: 5, img: "/images/gallery/gallery-5.jpg", height: 450, alt: "Paragliding over forest canopy" },
-    { id: 6, img: "/images/gallery/gallery-6.jpg", height: 320, alt: "Landing preparation in open field" },
-    { id: 7, img: "/images/gallery/gallery-7.jpg", height: 380, alt: "Tandem flight over lake and mountains" },
-    { id: 8, img: "/images/gallery/gallery-8.jpg", height: 420, alt: "Sunset paragliding experience" },
-    { id: 9, img: "/images/gallery/gallery-9.jpg", height: 360, alt: "Group of paragliders in formation" },
-    { id: 10, img: "/images/gallery/gallery-10.jpg", height: 480, alt: "Close-up of paraglider canopy in flight" },
-    { id: 11, img: "/images/gallery/gallery-11.jpg", height: 340, alt: "Panoramic view from paraglider" },
-    { id: 12, img: "/images/gallery/gallery-12.jpg", height: 390, alt: "Successful landing celebration" }
+    { id: 1, img: "/images/gallery/1.JPG", height: 400, alt: "Tandem paragliding flight over mountain landscape" },
+    { id: 2, img: "/images/gallery/2.JPG", height: 300, alt: "Paraglider preparing for takeoff" },
+    { id: 3, img: "/images/gallery/3.JPG", height: 500, alt: "Aerial view of coastline during tandem flight" },
+    { id: 4, img: "/images/gallery/4.JPG", height: 350, alt: "Instructor and passenger before flight" },
+    { id: 5, img: "/images/gallery/5.JPG", height: 450, alt: "Paragliding over forest canopy" },
+    { id: 6, img: "/images/gallery/6.JPG", height: 320, alt: "Landing preparation in open field" },
+    { id: 7, img: "/images/gallery/7.JPG", height: 380, alt: "Tandem flight over lake and mountains" },
+    { id: 8, img: "/images/gallery/8.JPG", height: 420, alt: "Sunset paragliding experience" },
+    { id: 9, img: "/images/gallery/9.JPG", height: 360, alt: "Group of paragliders in formation" },
+    { id: 10, img: "/images/gallery/10.jpg", height: 480, alt: "Close-up of paraglider canopy in flight" },
+    { id: 11, img: "/images/gallery/11.jpg", height: 340, alt: "Panoramic view from paraglider" },
+    { id: 12, img: "/images/gallery/12.jpg", height: 390, alt: "Successful landing celebration" }
   ];
 
   const columns = useMedia(

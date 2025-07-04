@@ -32,7 +32,7 @@ const paraglidingTimeline = {
       title: "tour.steps.transport.title",
       time: "11:00",
       description: "tour.steps.transport.desc",
-      image: "/images/experiences/paragliding/transport.jpg",
+      image: "/images/experiences/paragliding/transport.avif",
     },
   ],
 };
