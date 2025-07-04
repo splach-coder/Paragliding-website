@@ -6,6 +6,7 @@ import ParaglidingInfoBlock from "../components/ParaglidingInfoBlock";
 import QuoteSection from "../components/QuoteSection";
 import ParaglidingTeam from "../components/ParaglidingTeam";
 import FAQSection from "../components/FAQSection";
+import SeoHead from "../components/SeoHead";
 
 // Main App Component
 const Home = () => {

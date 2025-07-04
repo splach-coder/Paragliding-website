@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
 import ParaglidingContact from "../components/ParaglidingContact";
+import SeoHead from "../components/SeoHead"
 
 // Main App Component
 const Home = () => {

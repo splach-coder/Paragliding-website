@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import TourTimelineSection from "../components/TourTimelineSection";
+import SeoHead from "../components/SeoHead"
 import {
   paraglidingTimeline,
   quadTimeline,

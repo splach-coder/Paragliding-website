@@ -2,6 +2,7 @@ import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import ServicesSection from "../components/ServicesSection";
 import QuoteSection from "../components/QuoteSection";
+import SeoHead from "../components/SeoHead"
 
 // Main App Component
 const Services = () => {

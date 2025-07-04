@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import GallerySection from "../components/GallerySection";
+import SeoHead from "../components/SeoHead"
 
 // Main App Component
 const Gallery = () => {
