@@ -15,7 +15,7 @@ const Home = () => {
       <SeoHead
         title="FlyTandem | Paragliding, Quad & Desert Adventures in Marrakech"
         description="Experience Marrakech like never before. Book paragliding flights, desert quads, camel rides and horse tours with certified local guides."
-        image="/images/slider/paragliding.webp"
+        image="/images/slider/paraglide.webp"
       />
 
       <Hero />
