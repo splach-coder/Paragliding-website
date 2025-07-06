@@ -29,7 +29,6 @@ const LangSwitcher = () => {
         />
       </button>
 
-
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -69,29 +68,30 @@ const Header = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const navItems = [
-    { id: "Home", label: t("nav.home"), link: '/' },
-    { id: "About", label: t("nav.about"), link: '/about' },
-    { id: "Services", label: t("nav.services"), link: '/services' },
-    { id: "Gallery", label: t("nav.gallery"), link: '/gallery' },
+    { id: "Home", label: t("nav.home"), link: "/" },
+    { id: "About", label: t("nav.about"), link: "/about" },
+    { id: "Services", label: t("nav.services"), link: "/services" },
+    { id: "Gallery", label: t("nav.gallery"), link: "/gallery" },
   ];
 
   useEffect(() => {
     setIsLoaded(true);
-    
+
     const detectActiveSection = () => {
       const path = window.location.pathname;
-      const pathSegments = path.split('/').filter(segment => segment !== '');
-      
-      if (pathSegments.length === 0 || path === '/') {
+      const pathSegments = path.split("/").filter((segment) => segment !== "");
+
+      if (pathSegments.length === 0 || path === "/") {
         setActiveSection("Home");
       } else {
         const currentPage = pathSegments[pathSegments.length - 1].toLowerCase();
-        
-        const foundItem = navItems.find(item => 
-          item.link.toLowerCase() === currentPage || 
-          item.id.toLowerCase() === currentPage
+
+        const foundItem = navItems.find(
+          (item) =>
+            item.link.toLowerCase() === currentPage ||
+            item.id.toLowerCase() === currentPage
         );
-        
+
         if (foundItem) {
           setActiveSection(foundItem.id);
         } else {
@@ -106,10 +106,10 @@ const Header = () => {
       detectActiveSection();
     };
 
-    window.addEventListener('popstate', handlePopState);
+    window.addEventListener("popstate", handlePopState);
 
     return () => {
-      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener("popstate", handlePopState);
     };
   }, []);
 
@@ -189,9 +189,13 @@ const Header = () => {
             >
               <a href="/" className="flex items-center">
                 <img
-                  src="/images/logo/Flt Tandem.png"
                   alt="logo"
-                  className="h-16 w-auto"
+                  className="h-12 w-auto object-contain"
+                  src="/images/logo/Flt Tandem.png"
+                  fetchPriority="high"
+                  loading="eager"
+                  width="auto"
+                  height="56"
                 />
               </a>
             </motion.div>
@@ -257,16 +261,20 @@ const Header = () => {
       </motion.header>
 
       {/* Mobile Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 md:hidden h-[56px]">
-        <div className="bg-black/20 backdrop-blur-xl border-b border-white/10 h-full">
+      <header className="fixed top-0 left-0 right-0 z-50 md:hidden h-[68px]">
+        <div className="bg-black/30 backdrop-blur-xl border-b border-white/10 h-full">
           <nav className="flex items-center justify-between px-4 h-full">
             {/* Mobile Logo - Made larger */}
             <div className="flex items-center h-full">
               <a href="/" className="flex items-center h-full">
                 <img
-                  src="/images/logo/Flt Tandem.png"
                   alt="logo"
-                  className="h-12 w-auto object-contain" // Increased from h-10 to h-12
+                  className="h-12 w-auto object-contain"
+                  src="/images/logo/Flt Tandem.png"
+                  fetchPriority="high"
+                  loading="eager"
+                  width="auto"
+                  height="48"
                 />
               </a>
             </div>
@@ -293,7 +301,7 @@ const Header = () => {
                 animate="open"
                 exit="closed"
                 variants={mobileMenuVariants}
-                className="overflow-hidden absolute top-[56px] left-0 right-0 bg-black/20 backdrop-blur-xl border-b border-white/10"
+                className="overflow-hidden absolute top-[56px] left-0 right-0 bg-black/70 backdrop-blur-xl border-b border-white/10"
               >
                 <div className="px-4 pb-4 space-y-2">
                   {navItems.map((item) => (

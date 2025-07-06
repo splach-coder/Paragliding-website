@@ -235,6 +235,10 @@
       "transport": {
         "title": "Transport retour optionnel",
         "desc": "Le transport de retour à Marrakech est disponible si réservé à l’avance."
+      },
+      "tea": {
+        "title": "Pause Thé",
+        "desc": "Détendez-vous en dégustant un thé à la menthe traditionnel sous une tente berbère."
       }
     },
     "quad": {
@@ -263,7 +267,6 @@
         }
       }
     },
-
     "camel": {
       "name": "Balade à Dos de Chameau au Coucher du Soleil",
       "description": "Profitez d’une balade paisible à dos de chameau dans le désert au coucher du soleil.",
@@ -290,7 +293,6 @@
         }
       }
     },
-
     "horse": {
       "name": "Balade Matinale à Cheval",
       "description": "Explorez les alentours calmes de Marrakech à cheval avec un guide.",
@@ -350,11 +352,11 @@
     }
   },
   "services": {
-  "title": "Choisissez votre prochaine aventure",
-  "subtitle": "Du ciel aux sentiers du désert, découvrez notre sélection unique d’expériences inoubliables autour de Marrakech."
-},
-"gallery": {
-  "title": "Notre expérience en images",
-  "description": "Un aperçu des moments inoubliables capturés lors de nos circuits et aventures."
-}
+    "title": "Choisissez votre prochaine aventure",
+    "subtitle": "Du ciel aux sentiers du désert, découvrez notre sélection unique d’expériences inoubliables autour de Marrakech."
+  },
+  "gallery": {
+    "title": "Notre expérience en images",
+    "description": "Un aperçu des moments inoubliables capturés lors de nos circuits et aventures."
+  }
 }

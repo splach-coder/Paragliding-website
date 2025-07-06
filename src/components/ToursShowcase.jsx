@@ -94,7 +94,7 @@ const ToursShowcase = () => {
   };
 
   return (
-    <div ref={sectionRef} className="relative min-h-screen py-16 md:py-0 md:h-screen overflow-hidden bg-gray-100">
+    <div ref={sectionRef} className="relative min-h-screen py-16 md:py-0 md:h-screen overflow-hidden">
       {/* Initial static background */}
       {!activeImage && (
         <div className="absolute inset-0 hidden md:block">

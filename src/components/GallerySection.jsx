@@ -296,7 +296,7 @@ const GallerySection = () => {
 
   return (
     <section 
-      className="w-full py-16 lg:py-24"
+      className="w-full pb-16 pt-24  lg:py-24"
       aria-label="Photo gallery"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

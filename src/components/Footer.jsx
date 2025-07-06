@@ -95,7 +95,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4 mb-8">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1LAe9e2DfL/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -103,7 +103,7 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/fly_tandem?igsh=MWk2Zmw1dmtzMXd2aA=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pink-500 transition-colors"
@@ -114,18 +114,32 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div className="space-y-2">
-              <div className="flex items-center text-gray-400">
+              {/* Email - click to open mail client */}
+              <a
+                href="mailto:flytandem10@gmail.com"
+                className="flex items-center text-gray-400 hover:text-gray-300 transition-colors"
+              >
                 <Mail className="mr-3 h-4 w-4" />
                 <span>flytandem10@gmail.com</span>
-              </div>
-              <div className="flex items-center text-gray-400">
+              </a>
+
+              {/* First Phone - click to call (mobile) */}
+              <a
+                href="tel:+212651452409"
+                className="flex items-center text-gray-400 hover:text-gray-300 transition-colors"
+              >
                 <Phone className="mr-3 h-4 w-4" />
                 <span>+212 651-452409</span>
-              </div>
-              <div className="flex items-center text-gray-400">
+              </a>
+
+              {/* Second Phone - click to call (mobile) */}
+              <a
+                href="tel:+212611501135"
+                className="flex items-center text-gray-400 hover:text-gray-300 transition-colors"
+              >
                 <Phone className="mr-3 h-4 w-4" />
                 <span>+212 611-501135</span>
-              </div>
+              </a>
             </div>
           </div>
 
@@ -232,7 +246,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://wereact.agency"
-              className="text-sm text-gray-500 hover:text-white transition-colors"
+              className="text-sm text-green-700 hover:text-white transition-colors"
             >
               WeReact Agency
             </a>

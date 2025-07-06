@@ -234,6 +234,10 @@
       "transport": {
         "title": "Optional Transport Back",
         "desc": "Return transport available to Marrakech if booked in advance."
+      },
+      "tea": {
+        "title": "Tea Pause",
+        "desc": "Relax and enjoy a traditional mint tea break in a Berber tent."
       }
     },
     "transportNote": "Transport from Marrakech available at extra cost.",
@@ -351,11 +355,11 @@
     }
   },
   "services": {
-  "title": "Choose Your Next Adventure",
-  "subtitle": "From the skies to the desert trails, explore our unique selection of unforgettable outdoor experiences around Marrakech."
-},
-"gallery": {
-  "title": "Our Experience in Photos",
-  "description": "A glimpse of the unforgettable moments captured during our tours and adventures."
-}
+    "title": "Choose Your Next Adventure",
+    "subtitle": "From the skies to the desert trails, explore our unique selection of unforgettable outdoor experiences around Marrakech."
+  },
+  "gallery": {
+    "title": "Our Experience in Photos",
+    "description": "A glimpse of the unforgettable moments captured during our tours and adventures."
+  }
 }

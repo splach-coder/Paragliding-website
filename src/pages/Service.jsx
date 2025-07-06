@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import TourTimelineSection from "../components/TourTimelineSection";
 import SeoHead from "../components/SeoHead"
+import ScrollToTop from "../components/ScrollToTop"
 import {
   paraglidingTimeline,
   quadTimeline,
@@ -33,9 +34,10 @@ const Service = () => {
 
   return (
     <MainLayout>
+      <ScrollToTop />
       <div className="md:mt-20 md:mb-80">
         <SeoHead
-          title={`${timelineData.name} | Book Now with FlyTandem`}
+          title={timelineData.name}
           description={timelineData.description}
           image={timelineData.steps[0].image}
         />

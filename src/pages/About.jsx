@@ -15,7 +15,7 @@ const About = () => {
         image="/images/tours/paraglide.jpg"
       />
 
-      <div className="bg-white md:mb-80">
+      <div className="bg-white pt-14 md:pt-0 md:mb-80">
         <ParaglidingInfoBlock />
         <ParaglidingTeam />
         <FAQSection />

@@ -20,7 +20,7 @@ const Services = () => {
           {/* Main Title */}
           <div className="mb-8">
             <h1
-              className="text-7xl md:text-5xl font-black tracking-widest mb-4"
+              className="text-3xl md:text-5xl font-black tracking-widest mb-4"
               style={{
                 color: "#212A31",
                 fontFamily: "Roboto, -apple-system, sans-serif",

@@ -24,7 +24,7 @@ const TourTimelineSection = ({ timelineData }) => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-5xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6"
+          className="text-3xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6"
         >
           {t(timelineData.name)}
         </motion.h2>
@@ -32,7 +32,7 @@ const TourTimelineSection = ({ timelineData }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-          className="text-xl text-gray-600 mt-4 max-w-3xl mx-auto leading-relaxed"
+          className="text-md text-gray-600 mt-5 max-w-3xl mx-auto leading-relaxed"
         >
           {t(timelineData.description)}
         </motion.p>
@@ -46,7 +46,7 @@ const TourTimelineSection = ({ timelineData }) => {
             {t(timelineData.transportNote)}
           </span>
           <span className="px-6 py-3 bg-gray-900 text-white rounded-full font-semibold">
-            {t('Price')}: {timelineData.price}
+            <a href="/contact">{t('bookNow')}</a> 
           </span>
         </motion.div>
       </div>

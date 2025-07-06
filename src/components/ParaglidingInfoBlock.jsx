@@ -9,21 +9,21 @@ const ParaglidingInfoBlock = () => {
     {
       title: t("paragliding.title"),
       description: t("paragliding.description"),
-      image: "images/sections/1.JPG",
+      image: "images/sections/1.webp",
       layout: "left",
       textColor: "text-light-gray"
     },
     {
       title: t("expertFlights.title"),
       description: t("expertFlights.description"),
-      image: "images/sections/2.JPG",
+      image: "images/sections/2.webp",
       layout: "right",
       textColor: "text-deep-teal"
     },
     {
       title: t("pricing.title"),
       description: t("pricing.description"),
-      image: "images/sections/3.jpg",
+      image: "images/sections/3.webp",
       isPricing: true,
       layout: "left",
       textColor: "text-light-gray"
@@ -31,21 +31,21 @@ const ParaglidingInfoBlock = () => {
     {
       title: t("itinerary.title"),
       description: t("itinerary.description"),
-      image: "images/sections/4.jpg",
+      image: "images/sections/4.webp",
       layout: "right",
       textColor: "text-deep-teal"
     },
     {
       title: t("included.title"),
       description: t("included.description"),
-      image: "images/sections/5.jpg",
+      image: "images/sections/5.webp",
       layout: "left",
       textColor: "text-light-gray"
     },
     {
       title: t("safety.title"),
       description: t("safety.description"),
-      image: "images/sections/6.jpg",
+      image: "images/sections/6.webp",
       layout: "right",
       textColor: "text-deep-teal"
     },
@@ -81,7 +81,7 @@ const ParaglidingInfoBlock = () => {
   }, []);
 
   return (
-    <div className="relative pt-14 md:pt-0 w-full bg-light-gray" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
+    <div className="relative w-full bg-light-gray" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
       {/* Content Container */}
       <div className="relative z-20 max-w-full mx-auto">
         {/* Grid Layout */}

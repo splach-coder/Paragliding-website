@@ -16,14 +16,14 @@ const Hero = () => {
     },
     {
       image:
-      "/images/slider/camels.jpg",
+      "/images/slider/camels.webp",
       alt: "Camel tour in desert landscape",
       titleKey: "hero.slide2.title",
       descriptionKey: "hero.slide2.description",
     },
     {
       image:
-      "/images/slider/horses.JPG",
+      "/images/slider/horses.webp",
       alt: "Horse riding adventure in nature",
       titleKey: "hero.slide3.title",
       descriptionKey: "hero.slide3.description",
