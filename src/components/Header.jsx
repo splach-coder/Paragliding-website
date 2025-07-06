@@ -337,7 +337,7 @@ const Header = () => {
                       className="w-full bg-white text-black px-4 py-3 rounded-full text-sm font-medium hover:bg-white/90 transition-all duration-200 flex items-center justify-center"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      {t("nav.getStarted")}
+                      <a href="/contact">{t("nav.getStarted")}</a>
                       <svg
                         className="ml-2 w-3 h-3"
                         viewBox="0 0 24 24"

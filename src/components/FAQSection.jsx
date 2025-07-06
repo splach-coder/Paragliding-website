@@ -5,7 +5,7 @@ import WhatsAppButton from "./WhatsappButton";
 
 // Configuration data (non-translatable content)
 const faqConfig = {
-  linkUrl: "https://wa.me/212651452409", // Replace with your actual WhatsApp number
+  linkUrl: "212651452409", // Replace with your actual WhatsApp number
   questionsCount: 6 // Number of questions for dynamic rendering
 };
 
@@ -33,7 +33,7 @@ const FAQSection = () => {
           rel="noopener noreferrer"
           className="inline-block text-deep-teal hover:text-slate-blue transition-colors duration-200 font-medium underline"
         >
-          <WhatsAppButton text={t('faq.linkText')} />
+          <WhatsAppButton text={t('faq.linkText')} phoneNumber={faqConfig.linkUrl} />
         </a>
       </div>
 
