@@ -60,7 +60,7 @@ const ParaglidingTeam = () => {
             <div className="flex items-center justify-center mb-4">
               <Users className="w-8 h-8 text-slate-700" />
             </div>
-            <div className="text-3xl font-light text-slate-900 mb-2">4</div>
+            <div className="text-3xl font-light text-slate-900 mb-2">+4</div>
             <div className="text-sm uppercase tracking-wider text-slate-500">Expert Pilots</div>
           </div>
           <div className="text-center border-r border-slate-200 last:border-r-0">
