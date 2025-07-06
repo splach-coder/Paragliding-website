@@ -64,19 +64,19 @@ const quadTimeline = {
       title: "tour.quad.steps.ride.title",
       time: "09:30",
       description: "tour.quad.steps.ride.desc",
-      image: "/images/experiences/quad/3.jpg",
+      image: "/images/experiences/quad/4.jpeg",
     },
     {
       title: "tour.quad.steps.break.title",
       time: "10:15",
       description: "tour.quad.steps.break.desc",
-      image: "/images/experiences/quad/4.jpg",
+      image: "/images/footer/6.jpg",
     },
     {
       title: "tour.quad.steps.return.title",
       time: "10:45",
       description: "tour.quad.steps.return.desc",
-      image: "/images/experiences/quad/1.jpg",
+      image: "/images/experiences/quad/3.jpg",
     },
   ],
 };
